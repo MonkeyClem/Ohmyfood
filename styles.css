@@ -282,7 +282,6 @@ header h1 {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    margin-left: 3%;
   }
 }
 
