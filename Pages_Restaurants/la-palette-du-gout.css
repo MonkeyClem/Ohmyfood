@@ -168,6 +168,13 @@ img {
   position: relative;
 }
 
+@media screen and (min-width: 1024px) {
+  .menu {
+    margin-inline: auto;
+    width: 75%;
+  }
+}
+
 .nom-notation-restaurant {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -430,5 +437,7 @@ article:hover .menuItem__icon {
 
 .bouton_commander span:hover {
   cursor: pointer;
+  -webkit-box-shadow: 5px 0px 5px 5px #b8b8b8;
+          box-shadow: 5px 0px 5px 5px #b8b8b8;
 }
 /*# sourceMappingURL=la-palette-du-gout.css.map */
