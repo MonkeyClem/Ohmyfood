@@ -13,6 +13,13 @@
     font-family: "Roboto", sans-serif;
 }
 
+body{
+    margin: auto;
+    @media screen and (max-width:320px){
+        min-width: 320px;
+    }
+}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -36,6 +43,7 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+
 a{
     text-decoration: none;
 }
@@ -76,5 +84,4 @@ a{
     border-radius: 50%;
     animation: spin 3s linear;
     animation-fill-mode: forwards;
-  }
-
+}

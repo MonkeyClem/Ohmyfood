@@ -2,6 +2,7 @@
 /*Code pour animation lors du survol du coeur*/
 /*Code pour animation lors du survol d'un plat*/
 /*keyframe pour l'apparition graduelle des éléments*/
+@import url(c:\Users\cleme\P3_Jeulin_Clement\styles.css);
 @-webkit-keyframes appear {
   from {
     -webkit-transform: translate(0px, -25px);
@@ -81,6 +82,18 @@
   width: 100%;
 }
 
+@media screen and (min-width: 1024px) {
+  #les-restaurants {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-left: 3%;
+  }
+}
+
 .carte-restaurant {
   height: 300px;
   width: 100%;
@@ -93,6 +106,12 @@
           justify-content: space-between;
   -webkit-box-shadow: #EAEAEAff 0px 0px 5px 5px;
           box-shadow: #EAEAEAff 0px 0px 5px 5px;
+}
+
+@media screen and (min-width: 1024px) {
+  .carte-restaurant {
+    width: 46%;
+  }
 }
 
 .carte-restaurant a {

@@ -9,7 +9,6 @@
 
 body{
     @media screen and (max-width: 320px){
-        display: inline-block;
         width: 100%;
         min-width: 250px;
     }
@@ -61,7 +60,7 @@ img{
     flex-wrap: nowrap;
         h2{
             font-family: "Shrikhand";
-            width: 50%;
+            min-width: 90%;
             align-items: center;
            
         }

@@ -1,5 +1,6 @@
 @import "variables.scss";
 @import "mixins.scss";
+@import "../styles.css";
 
 #les-restaurants{
     padding: 48px 0px;
@@ -8,6 +9,11 @@
             margin-left: 5%;
             width: 100%;
     }
+    @media screen and (min-width:1024px){
+       display: flex;
+       justify-content: space-evenly;
+       margin-left: 3%;
+     }
 }
 
 .carte-restaurant{
@@ -19,12 +25,13 @@
     margin: 15px;
     justify-content: space-between;
     box-shadow: $grey-background 0px 0px 5px 5px;
-
+    @media screen and (min-width:1024px){
+        width: 46%;
+     }
         a{
             display: contents;
             color: black;
         }
-
         img{
             width: 100%;
             height: 75%;
